@@ -7,7 +7,9 @@ body {
     background-image: url("./images/premium_photo-1675810094933-14233747e1b5.jpeg");
     background-size: cover;
     font-family: "Inter", Arial, Helvetica, sans-serif;
-
+  }
+  image{
+    opacity: 10%;
   }
 .navbar{
     position: relative;
@@ -48,12 +50,14 @@ h1{
     margin-top: 300px;
     font-size: 60px;
     color:white;
+    opacity: 80%;
 }
 h2{
     width: 1000px;
     margin-left: 470px;
     font-size: 50px;
     color: white;
+    opacity: 80%;
 }
 .button {
     margin-left: 45%;
@@ -76,7 +80,7 @@ h2{
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-    margin-top: 1%;
+    margin-top: 10%;
   }
   
   .btn:after {
@@ -109,6 +113,9 @@ h2{
     align-items: center;
     justify-content: center;
     padding: 48px;
+  }
+  #Form1:target {
+    display: block;
   }
 
   .formbold-form-wrapper {
