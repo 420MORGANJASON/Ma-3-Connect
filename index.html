@@ -48,16 +48,16 @@
         </h2>
       </div>
           <!-- BUTTON START -->
-<div class="button">
-  <a href="#Form1" class="btn">Proceed to Menu</a>
-</div>
-<!-- BUTTON END -->
+    <div class="button">
+      <button class="btn" value="Form1" type="submit">Proceed to Menu</button>
+    </div>
+    <!-- BUTTON END -->
     </section>
     <!-- LANDING PAGE SECTION END -->
     <!-- FORM START -->
-    <div class="formbold-main-wrapper" id="Form1">
+    <div class="formbold-main-wrapper">
       <div class="formbold-form-wrapper">
-        <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <form action="https://formbold.com/s/FORM_ID" method="POST" id="Form1">
           <div class="formbold-mb-5">
             <label for="name" class="formbold-form-label"> Full Name </label>
             <input
@@ -71,7 +71,7 @@
           <div class="formbold-mb-5">
             <label for="phone" class="formbold-form-label"> Phone Number </label>
             <input
-              type="text"
+              type="number"
               name="phone"
               id="phone"
               placeholder="Enter your phone number"
@@ -166,13 +166,13 @@
           </div>
     
           <div>
-            <button class="formbold-btn">Book Appointment</button>
+            <button class="formbold-btn" type="submit">Book Appointment</button>
           </div>
         </form>
       </div>
     </div>
     <!-- FORM END -->
 
-
+<script src="./index.js"></script>
   </body>
 </html>
